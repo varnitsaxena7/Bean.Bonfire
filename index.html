@@ -17,7 +17,7 @@
   <body>
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#home" class="nav__logo">Coffee<span>.</span>co </a>
+        <a href="#home" class="nav__logo">Bean<span>.</span>Bonfire</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
@@ -53,11 +53,11 @@
         style="background-image: url('./assets/media/bg-hero.jpg')"
       >
         <h1 class="hero__title">
-          Start Your Day <br />
-          With Favorite Coffee <br />
-          And Cozy Place.
+          Begin your day <br />
+          With your favorite coffee <br />
+          In cozy spaces.
         </h1>
-        <button class="hero__button">Order Now</button>
+        <button class="hero__button" onclick="sendEmail()">Order Now</button>
       </section>
 
       <!-- special -->
@@ -65,8 +65,8 @@
         <div class="special__container">
           <div class="special__box">
             <h2 class="section__title">
-              Best coffees that make you <br />
-              happy and cheer you up!
+              Discover the happiest, mood-lifting coffees <br />
+              just for you!
             </h2>
           </div>
 
@@ -79,9 +79,9 @@
                   class="special__img"
                 />
               </div>
-              <h3 class="special__title">Original Coffee</h3>
+              <h3 class="special__title">Rich Aroma</h3>
               <p class="special__description">
-                We select the best beans coffee, for a true taste.
+                Sip into a world of delightful aromas that awaken your senses.
               </p>
             </div>
             <div class="special__group">
@@ -92,9 +92,9 @@
                   class="special__img"
                 />
               </div>
-              <h3 class="special__title">Hot Coffee</h3>
+              <h3 class="special__title">Smooth Flavor</h3>
               <p class="special__description">
-                Enjoy your coffee with some hot with true taste.
+                Indulge in a velvety-smooth coffee experience with every sip.
               </p>
             </div>
             <div class="special__group">
@@ -105,9 +105,9 @@
                   class="special__img"
                 />
               </div>
-              <h3 class="special__title">Ice Coffee</h3>
+              <h3 class="special__title">Perfect Balance</h3>
               <p class="special__description">
-                Enjoy your coffee with some ice wtih true taste.
+                Find the perfect balance of boldness and subtlety in every cup.
               </p>
             </div>
           </div>
@@ -118,8 +118,8 @@
       <section class="products section" id="products">
         <div class="products__container container">
           <h2 class="section__title">
-            Find delicious food and <br />
-            choose what you love
+            Find delicious food and choose <br />
+            what you love!
           </h2>
 
           <ul class="products__filters">
@@ -128,11 +128,11 @@
               data-filter=".delicacies"
             >
               <h3 class="products__title">Main Menu</h3>
-              <span class="products__stock">3 products</span>
+              <span class="products__stock">2 products</span>
             </li>
             <li class="products__item products__line" data-filter=".coffee">
               <h3 class="products__title">Coffee</h3>
-              <span class="products__stock">4 products</span>
+              <span class="products__stock">3 products</span>
             </li>
             <li class="products__item" data-filter=".cake">
               <h3 class="products__title">Desserts</h3>
@@ -152,41 +152,7 @@
               </div>
               <div class="products__data">
                 <h2 class="products__price">$5</h2>
-                <h3 class="products__name">Cookies</h3>
-
-                <button class="button products__button">
-                  <i class="bx bx-shopping-bag"></i>
-                </button>
-              </div>
-            </article>
-            <article class="products__card main-menu">
-              <div class="products__shape">
-                <img
-                  src="./assets/media/main-menu2.jpg"
-                  alt=""
-                  class="products__img"
-                />
-              </div>
-              <div class="products__data">
-                <h2 class="products__price">$6</h2>
-                <h3 class="products__name">Croissant</h3>
-
-                <button class="button products__button">
-                  <i class="bx bx-shopping-bag"></i>
-                </button>
-              </div>
-            </article>
-            <article class="products__card main-menu">
-              <div class="products__shape">
-                <img
-                  src="./assets/media/main-menu3.jpg"
-                  alt=""
-                  class="products__img"
-                />
-              </div>
-              <div class="products__data">
-                <h2 class="products__price">$4</h2>
-                <h3 class="products__name">Croissant</h3>
+                <h3 class="products__name">Pizza</h3>
 
                 <button class="button products__button">
                   <i class="bx bx-shopping-bag"></i>
@@ -203,7 +169,7 @@
               </div>
               <div class="products__data">
                 <h2 class="products__price">$4</h2>
-                <h3 class="products__name">Croissant</h3>
+                <h3 class="products__name">MiniBurger</h3>
 
                 <button class="button products__button">
                   <i class="bx bx-shopping-bag"></i>
@@ -290,7 +256,7 @@
               </div>
               <div class="products__data">
                 <h2 class="products__price">$5</h2>
-                <h3 class="products__name">Chocolate Croissant</h3>
+                <h3 class="products__name">Chocolate Pastry</h3>
 
                 <button class="button products__button">
                   <i class="bx bx-shopping-bag"></i>
@@ -339,8 +305,8 @@
       <section class="place section" id="place">
         <div class="place__container container">
           <h2 class="section__title">
-            Make you feels good With <br />
-            our comfy fasilities
+            Feel good with our cozy facilities designed <br />
+just for you!
           </h2>
 
           <div class="place__content grid">
@@ -350,30 +316,12 @@
                 alt=""
                 class="place__img-big"
               />
-              <div class="place__img-smalls">
-                <img
-                  src="./assets/media/place1.jpg"
-                  alt=""
-                  class="place__img-small active"
-                />
-                <img
-                  src="./assets/media/place2.jpg"
-                  alt=""
-                  class="place__img-small"
-                />
-                <img
-                  src="./assets/media/place3.jpg"
-                  alt=""
-                  class="place__img-small"
-                />
-              </div>
             </div>
 
             <div class="place__data">
-              <h2 class="place__title">Find a place you love</h2>
+              <h2 class="place__title">Discover Your Happy Place</h2>
               <p class="place__description">
-                We provide the best place to stay productive <br />
-                and focus with good vibes and beautiful design.
+                We offer a productive, focused environment with good vibes. <br />
               </p>
             </div>
           </div>
@@ -383,60 +331,38 @@
       <section class="blog section" id="blog">
         <div class="blog__container container">
           <h2 class="section__title">
-            Our blogs coffee with <br />
-            insightful topic
+            Explore insightful 
+            coffee<br> themed blogs
           </h2>
 
           <div class="blog__content grid">
             <article class="blog__card">
               <div class="blog__image">
                 <img src="./assets/media/blog1.jpg" alt="" class="blog__img" />
-                <a href="#" class="blog__button">
+                <a href="growcoffee.html" class="blog__button" target="_blank">
                   <i class="bx bx-right-arrow-alt"></i>
-                </a>
-                <div class="blog__stats">
-                  <div class="blog__reaction">
-                    <i class="bx bx-comment"></i>
-                    <span>12</span>
-                  </div>
-                  <div class="blog__reaction">
-                    <i class="bx bx-show"></i>
-                    <span>76,5k</span>
-                  </div>
-                </div>
+                </a>    
               </div>
 
               <div class="blog__data">
                 <h2 class="blog__title">How to grow coffee beans</h2>
                 <p class="blog__description">
-                  The blogs about coffee will help you a lot about how to grow
-                  coffee beans with hign standard.
+                  Our coffee blogs offer expert guidance on growing high-quality coffee beans
                 </p>
               </div>
             </article>
             <article class="blog__card">
               <div class="blog__image">
                 <img src="./assets/media/blog2.jpg" alt="" class="blog__img" />
-                <a href="#" class="blog__button">
+                <a href="coffeemaking.html" class="blog__button" target="_blank">
                   <i class="bx bx-right-arrow-alt"></i>
-                </a>
-                <div class="blog__stats">
-                  <div class="blog__reaction">
-                    <i class="bx bx-comment"></i>
-                    <span>96</span>
-                  </div>
-                  <div class="blog__reaction">
-                    <i class="bx bx-show"></i>
-                    <span>356,7k</span>
-                  </div>
-                </div>
+                </a>                
               </div>
 
               <div class="blog__data">
                 <h2 class="blog__title">How to make coffee for beginner</h2>
                 <p class="blog__description">
-                  The blogs about coffee will help you a lot about how to make a
-                  coffee with a good place coffee.
+                  Our coffee blogs will guide you in making the perfect cup in the comfort of your own home.
                 </p>
               </div>
             </article>
@@ -447,66 +373,60 @@
 
     <footer class="footer">
       <div class="footer__container container">
-        <h1 class="footer__title">Coffee<span>.</span>co</h1>
+        <h1 class="footer__title">Bean<span>.</span>Bonfire</h1>
         <p class="footer__description">
-          The best place to work <br />
-          and be more productive.
+          Discover the ultimate workspace for peak productivity and focus.
         </p>
 
         <div class="footer__content grid">
           <div class="footer__data">
             <h2 class="footer__subtitle">Address</h2>
             <p class="footer__information">
-              Street no.19 Lombok <br />
-              mataram. 003
+              Civil Lines, <br />
+              Bareilly
             </p>
           </div>
           <div class="footer__data">
             <h2 class="footer__subtitle">Contact</h2>
             <p class="footer__information">
-              +987654321 <br />
-              coffee@email.com
+              saxenavarnit0724@gmail.com
+              <br>
+              saxenavarnit.code7@gmail.com
             </p>
           </div>
           <div class="footer__data">
-            <h2 class="footer__subtitle">Office</h2>
+            <h2 class="footer__subtitle">Opening Hours</h2>
             <p class="footer__information">
-              Monday - Saturday <br />
+              Monday - Sunday <br />
               9AM - 10PM
             </p>
           </div>
           <div class="footer__data">
             <p class="footer__newsletter-description">
-              Subscribe to our newsletter
+              Write About Us!
             </p>
-
+          
             <div class="footer__newsletter">
-              <input
-                type="email"
-                placeholder="Your email address"
-                class="footer__input"
-              />
-              <button class="footer__button">
-                <i class="bx bx-right-arrow-alt"></i>
-              </button>
+              <form action="mailto:saxenavarnit.code7@gmail.com" method="post" enctype="text/plain" style="display: flex;">
+                <input
+                  type="text"
+                  name="message"
+                  class="footer__input"
+                  style="flex: 1; margin-right: 10px;"
+                  placeholder="Write your message here..."
+                />
+                <button type="submit" class="footer__button" style="flex: none;">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </form>
             </div>
           </div>
+          
+          
         </div>
 
-        <div class="footer__group">
-          <ul class="footer__social">
-            <a href="#" target="_blank" class="footer__social-link">
-              <i class="bx bxl-facebook"></i>
-            </a>
-            <a href="#" target="_blank" class="footer__social-link">
-              <i class="bx bxl-instagram"></i>
-            </a>
-            <a href="#" target="_blank" class="footer__social-link">
-              <i class="bx bxl-tiktok"></i>
-            </a>
-          </ul>
 
-          <span class="footer__copy"> &#169; ypcode. All rigths reserved </span>
+          <span class="footer__copy"> &#169; Varnit Saxena 2024 All rigths reserved </span>
         </div>
       </div>
     </footer>

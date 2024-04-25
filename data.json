@@ -10,13 +10,6 @@
       {
         "_id": "abc123",
         "category": "main-menu",
-        "title": "Burger beef special",
-        "price": "9",
-        "imageUrl": "./media/main-menu2.jpg"
-      },
-      {
-        "_id": "abc123",
-        "category": "main-menu",
         "title": "Burger vegetarian",
         "price": "10",
         "imageUrl": "./media/main-menu3.jpg"

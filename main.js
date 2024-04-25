@@ -33,7 +33,9 @@ const scrollHeader = () => {
     : header.classList.remove('scroll-header');
 };
 window.addEventListener('scroll', scrollHeader);
-
+function sendEmail() {
+  window.location.href = "mailto:saxenavarnit.code7@gmail.com";
+}
 /*=============== FETCH PRODUCTS ===============*/
 document.addEventListener('DOMContentLoaded', () => {
   fetch('/api/products')
