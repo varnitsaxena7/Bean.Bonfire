@@ -12,10 +12,6 @@ Bean.Bonfire provides a responsive web experience where you can discover a varie
 - **Responsive Design:** Enjoy our website on any device with ease.
 - **Stay Updated:** Get the latest news and updates about our products and promotions.
 
-## Demo
-
-Explore Bean.Bonfire: [Bean.Bonfire Demo](https://bean-bonfire.vercel.app/)
-
 ## Technologies Used
 
 - HTML5
